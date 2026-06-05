@@ -1,24 +1,42 @@
-/* General page styling */
+/* Adding texture and professional colors */
 body {
-    background-color: #f4f7f6;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-    line-height: 1.6;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); /* Smooth gradient texture */
+    color: #f1f5f9;
+    font-family: 'Segoe UI', sans-serif;
     margin: 0;
-    padding: 20px;
+    min-height: 100vh;
+    text-align: center;
 }
 
-/* The main container to center everything */
-main {
-    max-width: 800px;
-    margin: 40px auto;
-    background: #ffffff;
+.hero { padding: 80px 20px; }
+
+/* Making the email link highlight blue */
+.email-link {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.email-link:hover {
+    color: #ffffff; /* Turns white when you hover over it */
+    text-decoration: underline;
+}
+
+/* Button Styling */
+.cta-buttons { margin-top: 30px; display: flex; justify-content: center; gap: 20px; }
+.btn { padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; transition: 0.3s; }
+.hire { background-color: #38bdf8; color: #000; }
+.website { background-color: #ffffff; color: #000; }
+.btn:hover { transform: scale(1.05); opacity: 0.9; }
+
+.card {
+    background: rgba(30, 41, 59, 0.7); /* Adds depth with transparency */
+    backdrop-filter: blur(10px); /* Makes it look modern and "glassy" */
+    max-width: 600px;
+    margin: 20px auto;
     padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.1);
 }
 
-/* Heading colors */
-h1, h2 {
-    color: #2c3e50;
-}
