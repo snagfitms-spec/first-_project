@@ -1,6 +1,6 @@
 /* General page styling */
 body {
-    background-color: #f4f7f6; /* Soft professional grey-green */
+    background-color: #f4f7f6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
     line-height: 1.6;
@@ -14,11 +14,11 @@ main {
     margin: 40px auto;
     background: #ffffff;
     padding: 40px;
-    border-radius: 8px; /* Softens the corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle depth/shadow */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Heading colors */
 h1, h2 {
-    color: #2c3e50; /* Deep slate blue */
+    color: #2c3e50;
 }
