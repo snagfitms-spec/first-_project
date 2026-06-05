@@ -1,12 +1,24 @@
+/* General page styling */
 body {
-    font-family: sans-serif;
+    background-color: #f4f7f6; /* Soft professional grey-green */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
     line-height: 1.6;
+    margin: 0;
     padding: 20px;
-    max-width: 600px;
-    margin: auto;
-    background-color: #f4f4f4;
 }
 
+/* The main container to center everything */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 8px; /* Softens the corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle depth/shadow */
+}
+
+/* Heading colors */
 h1, h2 {
-    color: #2c3e50;
+    color: #2c3e50; /* Deep slate blue */
 }
