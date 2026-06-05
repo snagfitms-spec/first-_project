@@ -13,6 +13,7 @@ it’s just a simple webpage. It’s a small start, but it’s my first time set
 ​Why I'm doing this,
 ​I realized that studying on the side is great, but it only really clicks when I build something practical. I created this to bridge that gap between what I’m reading and what I’m actually able to produce. It helps me stay disciplined and keeps my progress organized.
 ​What I’ve learned so far
+
 ​Got my GitHub account up and running.
 
 ​Figured out how to create a repository and actually get a file into it.
